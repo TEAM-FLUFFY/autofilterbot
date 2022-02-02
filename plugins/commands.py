@@ -37,14 +37,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton(' 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝚄𝙾𝙿 ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton(' 𝙶𝚁𝙾𝚄𝙿 ', url='https://t.me/+02irdICknwJkYzc5'),
-            ],[
-            InlineKeyboardButton(' 𝙷𝙴𝙻𝙿 ', callback_data='help'),
-            InlineKeyboardButton(' 𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-            ],[
-            InlineKeyboardButton(' 𝙸𝙽𝙻𝙸𝙽𝙴  ', switch_inline_query_current_chat='')
+            InlineKeyboardButton(' 𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -79,15 +72,7 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝚄𝙾𝙿', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+02irdICknwJkYzc5'),
-            InlineKeyboardButton('𝙲𝙷𝙰𝙽𝙽𝙴𝙻', url='https://t.me/TEAMSAZUKI')
-            ],[
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-            ],[
-            InlineKeyboardButton('𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat='')
+            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
