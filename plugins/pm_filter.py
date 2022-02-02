@@ -398,17 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝙰 𝙲𝙷𝙰𝚃 𝙶𝚁𝚄𝙾𝙿', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿', url='https://t.me/+02irdICknwJkYzc5'),
-            ],[
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
-            InlineKeyboardButton('𝙰𝙱𝙾𝚄𝚃', callback_data='about')
-            ],[
-            InlineKeyboardButton('𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁', url='https://t.me/TEAM_KERALA'),
-            InlineKeyboardButton('𝙸𝙽𝙻𝙸𝙽𝙴', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('𝙾𝚆𝙽𝙴𝚁', url='https://t.me/TEAM_KERALA'), 
+            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -418,14 +408,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙰𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter')
+            InlineKeyboardButton('𝕄𝔸ℕ𝕌𝔸𝕃 𝔽𝕀𝕃𝕋𝔼ℝ', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝔸𝕌𝕋𝕆 𝔽𝕀𝕃𝕋𝔼ℝ', callback_data='autofilter')
             ],[
-            InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰 𝙼𝙾𝙳𝙴𝚂', callback_data='extra')
+            InlineKeyboardButton('ℂ𝕆ℕℕ𝔼ℂ𝕋𝕀𝕆ℕ𝕊', callback_data='coct'),
+            InlineKeyboardButton('𝔼𝕏𝕋ℝ𝔸 𝔽𝕌𝕋𝕌ℝ𝔼𝕊', callback_data='extra')
             ],[
-            InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
-            InlineKeyboardButton('𝙵𝙸𝙻𝙼𝚂', callback_data='stats')
+            InlineKeyboardButton('ℍ𝕆𝕄𝔼', callback_data='start'),
+            InlineKeyboardButton('𝕊𝕋𝔸𝕋𝕊', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -435,10 +425,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('𝚂𝙾𝚄𝚁𝙲𝙴', url='https://t.me/NOKKIERUNNOEPPPKITTUM')
+            InlineKeyboardButton('𝕊𝕆𝕌ℝℂ𝔼', url='https://t.me/NOKKIERUNNOEPPPKITTUM')
             ],[
-            InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
-            InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
+            InlineKeyboardButton('ℍ𝕆𝕄𝔼', callback_data='start'),
+            InlineKeyboardButton('ℂ𝕃𝕆𝕊𝔼', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
