@@ -106,14 +106,14 @@ This module only works for my OᗯᑎEᖇ⚡
 ➾ /roll  - <code>to roll a only admins.</code>
 ➾ /channel - <code>to get list of total connected channels</code>
 ➾ /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """ 𝔽𝕀𝕃𝔼𝕊: <code>{}</code>
- 𝕋𝕆𝕋𝔸𝕃 𝕌𝕊𝔼ℝ𝕊: <code>{}</code>
- 𝕋𝕆𝕋𝔸𝕃 ℂℍ𝔸𝕋𝕊: <code>{}</code>
- 𝕌𝕊𝔼𝔻 𝕊𝕋𝕆ℝ𝔸𝔾𝔼: <code>{}</code> 𝙼𝚒𝙱
- 𝔽ℝ𝔼𝔼 𝕊𝕋𝕆ℝ𝔸𝔾𝔼: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """𝔽𝕀𝕃𝔼𝕊: <code>{}</code>
+𝕋𝕆𝕋𝔸𝕃 𝕌𝕊𝔼ℝ𝕊: <code>{}</code>
+𝕋𝕆𝕋𝔸𝕃 ℂℍ𝔸𝕋𝕊: <code>{}</code>
+𝕌𝕊𝔼𝔻 𝕊𝕋𝕆ℝ𝔸𝔾𝔼: <code>{}</code> 𝙼𝚒𝙱
+𝔽ℝ𝔼𝔼 𝕊𝕋𝕆ℝ𝔸𝔾𝔼: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#𝐍𝐞𝐰𝐆𝐫𝐨𝐮𝐩
  𝔾ℝ𝕆𝕌ℙ ›› {}(<code>{}</code>)
- 𝕋𝕆𝕋𝔸𝕃 𝕄𝔼𝕄𝔹𝔼ℝ𝕊 ›› <code>{}</code>➪➪ 𝔸𝔻𝔻𝔼𝔻 𝔹𝕐 ›› {}
+ 𝕋𝕆𝕋𝔸𝕃 𝕄𝔼𝕄𝔹𝔼ℝ𝕊 ›› <code>{}</code>𝔸𝔻𝔻𝔼𝔻 𝔹𝕐 ›› {}
 """
     LOG_TEXT_P = """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
  𝕀𝔻 ›› <code>{}</code>
