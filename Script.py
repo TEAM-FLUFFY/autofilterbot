@@ -98,6 +98,13 @@ These are the extra features of ᗩᒍᗩ᙭
 ➾ /roll  - <code>get the dice roll play fun gameplays.</code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
+TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
+
+Do as you wish with telegra.ph module!
+
+<b>Commands and Usage:</b>
+• /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
+
 PURGE_TXT = """Help: <b>Purge</b>
 
 Need to delete lots of messages? That's what purges are for!
