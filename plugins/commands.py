@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton(' 𝙶𝚁𝚄𝙾𝙿 ', url='https://t.me/+02irdICknwJkYzc5')
+                InlineKeyboardButton(' 𝙶𝚁𝚄𝙾𝙿 ', url='https://t.me/ADHOLOKAMHD')
             ],
             [
                 InlineKeyboardButton(' 𝙷𝙴𝙻𝙿 ', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -37,7 +37,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton(' 𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' 🎀𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟🎀 ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('🤠𝗔𝗕𝗢𝗨𝗧🤠', callback_data='about'),
+            ],[
+            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -72,7 +75,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝔸 ℂℍ𝔸𝕋 𝔾ℝ𝕆𝕌ℙ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🎀𝗟𝗘𝗧'𝗦 𝗥𝗢𝗟𝗟🎀', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('🤠𝗔𝗕𝗢𝗨𝗧🤠', callback_data='about'),
+            ],[
+            InlineKeyboardButton('⚡𝗛𝗘𝗟𝗣⚡', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -200,12 +206,12 @@ async def delete_all_index(bot, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="𝗬𝗘𝗦😘", callback_data="autofilter_delete"
+                        text="𝙵𝙸𝙻𝙴𝚂 𝙰𝙳𝙳", callback_data="autofilter_delete"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="𝗖𝗔𝗡𝗖𝗘𝗟☹️", callback_data="close_data"
+                        text="𝙵𝚄𝙲𝙺 𝙾𝙵𝙵", callback_data="close_data"
                     )
                 ],
             ]
