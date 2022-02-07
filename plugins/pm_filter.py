@@ -432,6 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('⚡𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘⚡', url='https://github.com/TEAM-FLUFFY/FluffyV1')
+            InlineKeyboardButton('🎮𝗚𝗢 𝗧𝗢 𝗜𝗡𝗟𝗜𝗡𝗘🎮', switch_inline_query_current_chat=''),
             ],[
             InlineKeyboardButton('⭐𝗙𝗜𝗥𝗦𝗧⭐', callback_data='start'),
             InlineKeyboardButton('🧿𝗖𝗟𝗢𝗦𝗘🧿', callback_data='close_data')
