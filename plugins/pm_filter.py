@@ -417,6 +417,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🤗𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗜𝗢𝗡𝗦🤗', callback_data='coct'),
             InlineKeyboardButton('📌𝗘𝗫𝗧𝗥𝗔 𝗙𝗨𝗧𝗘𝗥𝗦📌', callback_data='extra')
             ],[
+            InlineKeyboardButton('📸𝗧𝗴𝗿𝗮𝗽𝗵📸', callback_data='tgraph'),
+            InlineKeyboardButton('💣𝗣𝗨𝗥𝗚𝗘💣', callback_data='purge'),
+            ],[
             InlineKeyboardButton('⭐𝗙𝗜𝗥𝗦𝗧⭐', callback_data='start'),
             InlineKeyboardButton('🔮𝗙𝗜𝗟𝗘🔮', callback_data='stats')
         ]]
