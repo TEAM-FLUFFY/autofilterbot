@@ -98,6 +98,14 @@ These are the extra features of ᗩᒍᗩ᙭
 ➾ /roll  - <code>get the dice roll play fun gameplays.</code>"""
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
+PURGE_TXT = """Help: <b>Purge</b>
+
+Need to delete lots of messages? That's what purges are for!
+
+<b>Commands and Usage:</b>
+• /purge - delete all messages from the replied to message, to the current message.
+
+
 <b>NOTE:</b>
 This module only works for my OᗯᑎEᖇ⚡
 
