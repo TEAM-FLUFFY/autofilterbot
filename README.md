@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="assets/logo.jpg" alt="𝙰𝚃𝙷𝙸𝙵">
 </p>
 <h1 align="center">
-  <b>ᗩᒍᗩ᙭ Iᗰᗪᗷ ᗷOT ᐯ3</b>
+  <b>𝙰𝚃𝙷𝙸𝙵</b>
 </h1>
 
 
@@ -39,12 +39,11 @@
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Aadhi000/Ajax">
+<a href="https://heroku.com/deploy?template=https://github.com/TEAM-FLUFFY/autofilterbot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -53,7 +52,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax
+git clone https://github.com/TEAM-FLUFFY/autofilterbot
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -90,6 +89,6 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝐀𝐚𝐝𝐡𝐢](https://t.me/BKC0001)                                                                                                                                        
-𝙶𝚁𝙾𝚄𝙿 ›› [𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝](https://t.me/MoviesWorld_Group)                                             
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/Minnal_Murali2021HD)
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝚁𝙾𝙲𝙺𝚈](https://t.me/TEAM_KERALA)                                                                                                                                        
+𝙶𝚁𝙾𝚄𝙿 ›› [𝙰𝙳𝙷𝙾𝙻𝙾𝙺𝙰𝙼 𝙷𝙳](https://t.me/ADHOLOKAMHD)                                             
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝙰𝙳𝙷𝙾𝙻𝙾𝙺𝙰𝙼 𝙷𝙳 𝙲𝙷𝙰𝙽𝙽𝙴𝙻](https://t.me/ADHOLOKAMHDCHANNEL)
