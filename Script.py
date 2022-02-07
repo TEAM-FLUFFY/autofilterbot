@@ -38,6 +38,14 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
+<b>🎲 NOTHING MUCH JUST SOME FUN THINGS</b>
+t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍: 
+𝟣. /dice - Roll The Dice 
+𝟤. /Throw 𝗈𝗋 /Dart - 𝖳𝗈 𝖬𝖺𝗄𝖾 Drat 
+3. /Runs - Jokes 
+4. /Goal or /Shoot - To Make A Goal Or Shoot
+5. /luck or /cownd - Spin the Lucky"""
+ 
 <b>Commands and Usage:</b>
 ➾ /filter - <code>add a filter in chat</code>
 ➾ /filters - <code>list all the filters of a chat</code>
